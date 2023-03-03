@@ -1,0 +1,7 @@
+Ele pode enviar um ou mais pacotes de dados caso tenha eventos acontecendo dentro desse um segundo, entende? O protoco é:
+
+Head - 1 byte - Packet Header, each packet data start with 0xA0
+Len - 1 byte - Packet Header begin with the bytes after the Len, not include Len
+Address - 1 byte - The reader's own address
+Data - N Bytes - Data returned from the read
+Check - 1 byte - Checksum, Checksum of all bytes except the checksum itsel
