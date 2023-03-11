@@ -1,0 +1,9 @@
+My engineer told 70 here means the battery is full
+20 is low battery
+60 is high too
+When 70 the voltage is 3v+ ,means full battery
+When 60,voltage about 3v(+/-)0.1
+When 20, about 2.85v , almost need to change
+
+a013018b703000000000000000000000001bfc12f8
+        ** -> battery level
