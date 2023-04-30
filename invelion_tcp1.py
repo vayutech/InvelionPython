@@ -44,9 +44,9 @@ def client(host='192.168.0.178', port=4001):
             sends += 1
             messages = receive_data(sock)
             for msg in messages:
-                size = int(msg[2:4], 16)
                 if not msg:
                     continue
+                size = int(msg[2:4], 16)
                 if(size == 19):
                     readings.append(msg)
                     process_message(msg)
